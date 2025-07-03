@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: keycloak-sso
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    healthCheckPath: /
